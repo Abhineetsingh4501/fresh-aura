@@ -14,34 +14,23 @@
     </div>
 
     <header>
-        <div class="container">
-            <div class="main-header">
-                <a href="#" class="logo">
-                    <i class="fas fa-seedling"></i> Fresh<span>Aura</span>
+        <div class="container main-header">
+            <a href="#" class="logo"><i class="fas fa-seedling"></i> Fresh<span>Aura</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" id="cartIcon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count" id="cartCount">0</span>
                 </a>
-                
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-                
-                <nav id="mainNav">
-                    <ul>
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="#shop">Shop</a></li>
-                        <li><a href="#categories">Categories</a></li>
-                        <li><a href="#about">Our Story</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header-icons">
-                    <a href="#"><i class="fas fa-search"></i></a>
-                    <a href="#"><i class="fas fa-user"></i></a>
-                    <a href="#" id="cartIcon">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span class="cart-count" id="cartCount">0</span>
-                    </a>
-                </div>
             </div>
         </div>
     </header>
@@ -49,177 +38,21 @@
     <section class="hero">
         <div class="container">
             <h1>Nature's Touch, Your Glow</h1>
-            <p>Ayurveda-inspired hair and skin care products, formulated with natural elements and proven science for Indian wellness.</p>
+            <p>Ayurveda-inspired wellness for Indian skin and hair.</p>
             <a href="#shop" class="btn">Shop Now</a>
         </div>
     </section>
 
-   
-<section class="container" id="categories">
-        <h2 class="section-title">Shop By Ayurvedic Range</h2>
-        <div class="categories">
-            <div class="category-card">
-                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="category-info">
-                    <h3>Hair Care</h3>
-                    <p>Shikakai, Bhringraj, and Coconut Oil</p>
-                    <a href="#" class="btn btn-outline mt-40">Browse</a>
-                </div>
-            </div>
-            
-            <div class="category-card">
-                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1627918341907-775b871216d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="category-info">
-                    <h3>Face Serums</h3>
-                    <p>Salicylic, Niacinamide, and Turmeric</p>
-                    <a href="#" class="btn btn-outline mt-40">Browse</a>
-                </div>
-            </div>
-            
-            <div class="category-card">
-                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1527477174627-c1d4715f3e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="category-info">
-                    <h3>Body Cleansing</h3>
-                    <p>Neem, Tulsi, and Sandalwood essence</p>
-                    <a href="#" class="btn btn-outline mt-40">Browse</a>
-                </div>
-            </div>
-            
-            <div class="category-card">
-                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1582215888941-bd56a815a510?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
-                <div class="category-info">
-                    <h3>Complete Sets</h3>
-                    <p>Routine kits for full body care</p>
-                    <a href="#" class="btn btn-outline mt-40">Browse</a>
-                </div>
-            </div>
-        </div>
-    </section>
-   <section class="container" id="shop">
+    <section class="container" id="shop">
         <h2 class="section-title">Popular Products</h2>
         <div class="products" id="productsContainer">
-            <div class="product-card" data-id="1">
-                <div class="product-badge">BESTSELLER</div>
-                <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')">
-                    <div class="product-overlay">
-                        <button class="quick-view-btn" data-id="1">Quick View</button>
-                    </div>
-                </div>
-                <div class="product-info">
-                    <h3>Bhringraj Shampoo</h3>
-                    <div class="product-price">
-                        ₹399.00
-                    </div>
-                    <button class="add-to-cart" data-id="1">Add to Cart</button>
-                </div>
-            </div>
             </div>
     </section>
-
-    <section class="container">
-        <div class="features">
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-truck"></i>
-                </div>
-                <h3>Free Shipping in India</h3>
-                <p>On all orders over ₹500</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-seedling"></i>
-                </div>
-                <h3>100% Natural Ingredients</h3>
-                <p>Free from harmful chemicals</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-hand-holding-heart"></i>
-                </div>
-                <h3>Ayurveda Inspired</h3>
-                <p>Ancient Indian herbal wisdom</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-headset"></i>
-                </div>
-                <h3>24/7 Customer Support</h3>
-                <p>Always here to assist you</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="newsletter">
-            <h2>Join Our Community</h2>
-            <p>Subscribe for exclusive discounts and Ayurvedic tips.</p>
-            <form class="newsletter-form" id="newsletterForm">
-                <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
-                <button type="submit" class="newsletter-btn">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Fresh Aura (India)</h3>
-                    <p>The synergy of Ayurveda and modern science. Inspired by India's natural treasures.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#shop">Shop</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Customer Service</h3>
-                    <ul>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Return Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Track Your Order</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Contact Info</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> Plot 101, Wellness City, Gurugram, Haryana</li>
-                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
-                        <li><i class="fas fa-envelope"></i> support@freshaura.in</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="copyright">
-                <p>&copy; 2023 Fresh Aura. All rights reserved. Made in India.</p>
-            </div>
-        </div>
-    </footer>
 
     <div class="modal" id="productModal">
         <div class="modal-content">
             <button class="close-modal" id="closeModal">&times;</button>
-            <div class="modal-product" id="modalProductContent">
-                </div>
+            <div id="modalProductContent"></div>
         </div>
     </div>
 
@@ -228,18 +61,16 @@
             <h2>Your Cart</h2>
             <button class="close-cart" id="closeCart">&times;</button>
         </div>
-        <div class="cart-items" id="cartItems">
-            </div>
+        <div class="cart-items" id="cartItems"></div>
         <div class="cart-total">
             <span>Total:</span>
             <span id="cartTotal">₹0.00</span>
         </div>
-        <button class="btn" style="width: 100%;" id="checkoutBtn">Checkout</button>
+        <button class="btn" style="width: 100%; margin-top: 20px;">Checkout</button>
     </div>
 
     <div class="toast" id="toast">
-        <i class="fas fa-check-circle"></i>
-        <span id="toastMessage">Product added to cart!</span>
+        <i class="fas fa-check-circle"></i> <span id="toastMessage"></span>
     </div>
 
     <script src="script.js"></script>
